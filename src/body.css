@@ -1,0 +1,64 @@
+/* @media only screen and (max-width: 400px) {
+    .discover{
+    
+        height: 20vw;
+        margin: 0 20px;
+        box-shadow: 0 4px 60px rgb(0,0,0,0.5);
+    }
+
+    .body_info_text > p{
+        font-size: 8px;
+    
+    }
+
+    .body_info{
+      
+        align-items: flex-end;
+        padding: 10px;
+    }
+  } */
+
+.body{
+   
+    flex:0.8;
+    color: white;
+    height: 100vh;
+    padding: 30px;
+    min-width: 100px;
+    background: linear-gradient(rgb(91,87,115) , rgba(0,0,0,1));
+    overflow-y: overlay;
+    
+}
+
+.body::-webkit-scrollbar{
+    display: none;
+}
+
+.body_info{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+.body_info_text > p{
+    font-size: 14px;
+
+}
+.discover{
+    height: 20vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgb(0,0,0,0.5);
+}
+
+.body_icons{
+    display: flex;
+    align-items: center;
+    
+}
+
+.body_icons > .MuiSvgIcon-root{
+   margin-right: 20px;
+   font-size: 40px !important;
+   margin-left: 50px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
